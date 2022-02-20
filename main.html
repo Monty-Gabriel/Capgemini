@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Cabecalho do html -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Icone da aba -->
+    <link rel="shortcut icon" href="./img/logo_2.ico" type="image/x-icon" />
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Titulo da aba -->
+    <title>Capgemini</title>
+  </head>
+
+  <!-- Corpo do html -->
+  <body>
+      <main>
+          <!-- Seção do previw do gif e o logo -->
+          <section class="top-content-gif">
+            <div class="logo-gif"><img src="./img/preview_logo.gif" alt="" /></div> <!-- Gif (Foi cortado do video do site da Capgemini e dep^os convertido em gif e editado, removendo o loop infinito)  -->
+            <div class="logo-png" style="display: none"> 
+              <img src="./img/logo_1.png" alt="" /> <!--Logo da Capgemini-->
+            </div>
+          </section>
+
+          <!-- Seção dos conteudo do tipo texto e imagen do documento -->
+          <section class="top-content">
+            </div>
+            <h1># Questão 01</h1>
+            <div class="parrafo-1">
+              <br />
+              <p>
+                Escreva um algoritmo que mostre na tela uma escada de tamanho n
+                utilizando o caractere * e espaços. A base e altura da escada devem ser
+                iguais ao valor de n. A última linha não deve conter nenhum espaço.
+                <br />Exemplo:
+                <br />
+                <br />Entrada: <strong>n = 6</strong>
+                <br />
+                <br />
+                Saída: <br />
+                <img src="./img/saida.png" alt="" /> <!-- Imagen da Saida de exemplo -->
+              </p>
+          </section>
+    
+          <!-- Seção do Input para inserir o valor, botão e resultado -->
+          <div class="container-format">
+            <form action="#" id="format">
+              <p class="valor">Insira um valor</p>
+              <input type="number" name="input" id="input" max="999" /> <!-- Campo para inserir valor, so admite numeros de 1 ate 999 -->
+              <br />
+
+              <input type="button" value="Bora La!" class="botao" onclick="escada()" />  <!-- Botão (com efeito) que ao clicar chama a função escada --> 
+              
+              <div id="res">Resultado</div> <!-- Div que ira a ser substituida por o resultado da função -->
+              
+              <button role="button" class="botao" id="proximo"> 
+                <a target="_blank" href='./question_2.html'>Próximo</a>
+              </button> 
+
+            </form>
+            <br />
+            <br />
+          </div>
+
+        </div>
+      </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script> <!-- Link do jquery -->
+    <script src="./script/script.js"></script> <!-- Link do documento script.js -->
+  </body>
+</html>
